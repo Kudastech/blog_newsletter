@@ -35,6 +35,7 @@ Route::post('/admin/subscriber/send-email-submit', [AdminSubscriberController::c
 
 // Blog Post
 
+
 Route::get('/blog/post/show',[BlogController::class,'blog_index'])->name('blog_index');
 Route::get('/create',[BlogController::class,'create'])->name('create');
 Route::post('/store',[BlogController::class,'store'])->name('store');
